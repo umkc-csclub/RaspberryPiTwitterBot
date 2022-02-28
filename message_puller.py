@@ -2,7 +2,6 @@ import json, random
 
 
 def get_message(message_db="messages.json", used_db="used.txt"):
-    
     try:
         with open(used_db) as f:
             used = {int(i) for i in f}
