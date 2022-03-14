@@ -1,4 +1,5 @@
-import json, random
+import json
+import random
 
 
 def get_message(message_db="messages.json", used_db="used.txt"):
